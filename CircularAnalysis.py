@@ -2,7 +2,7 @@
 import streamlit as st #Website App
 import random #Python lib
 #import matplotlib as plt #Pie Chart
-import cohere #AI
+from import cohere #AI
 
 co = cohere.Client('zysanKC01CGpWAZKsbXi5jB3q07QvqWaGPjifNec') #Cohere API key
 
